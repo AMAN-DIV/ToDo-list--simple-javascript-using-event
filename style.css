@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;800;900&display=swap');
+
+body{
+width: 100vw;
+height: 100vh;
+background: rgb(75,68,72);
+background: linear-gradient(38deg, rgba(75,68,72,1) 0%, rgba(102,0,254,1) 35%, rgba(199,22,155,1) 84%);
+overflow: hidden;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    margin: 10% 25%;
+    border-radius: 14px;
+    padding: 50px;
+}
+.container img{
+    width: 65px;
+    margin-left: 20px;
+}
+.container h1{
+    font-weight: 700;
+}
+.main{
+    display: flex;
+  
+}
+input{
+    background-color: rgb(223, 215, 215);
+    color: #000;
+   
+    width: 400px;
+    margin-top: 25px;
+    height: 50px;
+    border-radius: 20px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    border:none;
+    font: 25px;
+    padding: 5px;
+    font-weight: 14px;
+    outline :none;
+    
+}
+
+button{
+    background-color: orangered;
+    height: 60px;
+    border: 0PX solid transparent;
+    width: 90PX;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+    margin-left: -90px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 12px;
+    font: 45px;
+   
+
+}
+
+.BUT{
+    display: inline-flex;
+}
+.list{
+    margin-top: 25px;
+}
+ul li{
+list-style: none;
+font-size: 17px;
+padding: 5px 8px 6px 20px;
+user-select: none;
+cursor: pointer;
+position: relative;
+
+}
+ul li::before{
+    content: ' ' ;
+    position:absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+    background-image: url('./images-removebg-preview.png');
+    background-position: center;
+    background-size: cover;
+    top: 4px;
+    left: -9px;
+}
+
+
+#chek {
+    color: #555;
+    text-decoration: line-through;
+}
+
+#chek::before{
+    background-image: url('https://static.thenounproject.com/png/1010747-200.png');
+}
